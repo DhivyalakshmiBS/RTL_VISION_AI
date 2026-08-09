@@ -1,0 +1,215 @@
+/* ================================
+   RTLVision AI - Global Styles
+   ================================ */
+
+.stApp {
+    .stApp,
+    [data-testid="stAppViewContainer"],
+    [data-testid="stHeader"] {
+        background:
+            radial-gradient(
+                circle at 10% 20%,
+                rgba(0, 212, 255, 0.18),
+                transparent 30%
+            ),
+            radial-gradient(
+                circle at 90% 80%,
+                rgba(124, 58, 237, 0.18),
+                transparent 30%
+            ),
+            #070b14 !important;
+}
+}
+
+/* Sidebar */
+
+section[data-testid="stSidebar"] {
+    background: rgba(8, 13, 28, 0.95);
+    border-right: 1px solid rgba(255,255,255,0.10);
+}
+
+/* Main title */
+
+.main-title {
+    font-size: 42px;
+    font-weight: 800;
+    color: #00d4ff;
+}
+
+/* Subtitle */
+
+.subtitle {
+    color: #9ca8ba;
+    font-size: 17px;
+}
+
+/* Glassmorphism card */
+
+.glass-card {
+    background: rgba(255, 255, 255, 0.06);
+    border: 1px solid rgba(255, 255, 255, 0.12);
+    border-radius: 20px;
+    padding: 25px;
+
+    backdrop-filter: blur(18px);
+    -webkit-backdrop-filter: blur(18px);
+
+    box-shadow:
+        0 8px 32px rgba(0, 0, 0, 0.35);
+
+    transition:
+        transform 0.25s ease,
+        border-color 0.25s ease;
+}
+
+/* Card hover */
+
+.glass-card:hover {
+    transform: translateY(-5px);
+
+    border-color:
+        rgba(0, 212, 255, 0.40);
+
+    box-shadow:
+        0 12px 40px rgba(0, 212, 255, 0.10);
+}
+
+/* Card title */
+
+.feature-title {
+    color: #00d4ff;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+/* Card description */
+
+.feature-text {
+    color: #aab4c3;
+    font-size: 14px;
+    line-height: 1.6;
+}
+
+/* Logo */
+
+.logo-box {
+    width: 65px;
+    height: 65px;
+
+    border-radius: 18px;
+
+    background:
+        linear-gradient(
+            135deg,
+            #00d4ff,
+            #6366f1,
+            #8b5cf6
+        );
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    font-size: 32px;
+
+    box-shadow:
+        0 0 30px rgba(0, 212, 255, 0.30);
+}
+
+/* Status */
+
+.status {
+    display: inline-block;
+
+    padding: 6px 12px;
+
+    border-radius: 20px;
+
+    background: rgba(34,197,94,0.12);
+
+    border: 1px solid rgba(34,197,94,0.30);
+
+    color: #4ade80;
+
+    font-size: 13px;
+}
+
+/* Section heading */
+
+.section-heading {
+    font-size: 25px;
+    font-weight: 700;
+
+    color: #ffffff;
+
+    margin-top: 20px;
+    margin-bottom: 15px;
+}
+
+/* RTL Diagram */
+
+.diagram-box {
+    min-height: 230px;
+
+    border: 1px dashed
+        rgba(0, 212, 255, 0.40);
+
+    border-radius: 18px;
+
+    background:
+        rgba(0, 212, 255, 0.03);
+
+    display: flex;
+
+    flex-direction: column;
+
+    align-items: center;
+
+    justify-content: center;
+
+    color: #7f8da3;
+
+    text-align: center;
+}
+.glass-card {
+    background: rgba(255, 255, 255, 0.06);
+
+    border: 1px solid rgba(255, 255, 255, 0.12);
+
+    border-radius: 20px;
+
+    padding: 25px;
+
+    backdrop-filter: blur(18px);
+    -webkit-backdrop-filter: blur(18px);
+
+    box-shadow:
+        0 8px 32px rgba(0, 0, 0, 0.35);
+
+    transition:
+        transform 0.25s ease,
+        border-color 0.25s ease;
+}
+
+.glass-card:hover {
+    transform: translateY(-5px);
+
+    border-color:
+        rgba(0, 212, 255, 0.45);
+
+    box-shadow:
+        0 12px 40px rgba(0, 212, 255, 0.12);
+}
+
+.feature-title {
+    color: #00d4ff;
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+.feature-text {
+    color: #aab4c3;
+    font-size: 14px;
+    line-height: 1.6;
+}
